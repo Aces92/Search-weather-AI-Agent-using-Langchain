@@ -3,7 +3,10 @@ langchain-core>=1.0.0,<2.0.0
 langchain-groq>=1.0.0,<2.0.0
 langchain-tavily>=0.2.0,<1.0.0
 
-streamlit
-python-dotenv
-requests
-certifi
+streamlit>=1.32.0
+
+#utilities
+
+python-dotenv>=1.0.0
+requests>=2.31.0
+certifi>=2024.0.0
